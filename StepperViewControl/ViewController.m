@@ -34,12 +34,15 @@
     [[self view] addSubview:myLabel];
     
     
+    
+    
+    
    
     
+    [leftView setTitle:@"-" forState:UIControlStateNormal];
     
-    
-    
-    
+    [rightView setTitle:@"+" forState:UIControlStateNormal];
+
     
     rightView.frame= CGRectMake(middleView.frame.size.width/2 +50 ,middleView.frame.size.height/2 -20,50,40);
     rightView.backgroundColor = [UIColor colorWithRed:33/255.0 green:150/255.0 blue:243/255.0 alpha:1.0];
